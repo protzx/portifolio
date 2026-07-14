@@ -4,7 +4,10 @@ import { MdEmail } from 'react-icons/md';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './App.css'
-
+import imgBarbearia from './assets/Captura de pantalla 2026-07-13 225505.png'
+import imgRoupas from './assets/Captura de pantalla 2026-07-13 225637.png'
+import imgLendas from './assets/Captura de pantalla 2026-07-13 233509.png'
+import imgAgro from './assets/Captura de pantalla 2026-07-13 233556.png'
 export default function App() {
   useEffect(() => {
     AOS.init({
@@ -117,7 +120,7 @@ export default function App() {
     maxWidth: '100%'
    }}>
   <a href='https://sistema-agendamento-opal.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src='src/assets/Captura de pantalla 2026-07-13 225505.png' style={{
+  <img src={imgBarbearia} style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -147,7 +150,7 @@ export default function App() {
     maxWidth: '100%'
   }}>
   <a href='https://vitrine-virtual-eight.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src='src/assets/Captura de pantalla 2026-07-13 225637.png' style={{
+  <img src={imgRoupas} style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -185,7 +188,7 @@ export default function App() {
     maxWidth: '100%'
    }}>
   <a data-aos="fade-up" data-aos-delay="100" href='https://lendas-de-palmeira.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src='src/assets/Captura de pantalla 2026-07-13 233509.png' style={{
+  <img src={imgLendas} style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -216,7 +219,7 @@ export default function App() {
   }}>
     <div>
   <a href='https://agrinho-beige-pi.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src='src/assets/Captura de pantalla 2026-07-13 233556.png' style={{
+  <img src={imgAgro} style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
