@@ -4,10 +4,7 @@ import { MdEmail } from 'react-icons/md';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './App.css'
-import imgBarbearia from './assets/Captura de pantalla 2026-07-13 225505.png'
-import imgRoupas from './assets/Captura de pantalla 2026-07-13 225637.png'
-import imgLendas from './assets/Captura de pantalla 2026-07-13 233509.png'
-import imgAgro from './assets/Captura de pantalla 2026-07-13 233556.png'
+
 export default function App() {
   useEffect(() => {
     AOS.init({
@@ -111,16 +108,21 @@ export default function App() {
       flexWrap: 'wrap',
       color: 'white',
       fontFamily: 'roboto',
-      boxSizing: 'border-box'
+      boxSizing: 'border-box',
+      justifyContent: 'space-between',
+      gap: '20px'
     }}>
    <div data-aos="fade-up" data-aos-delay="100" style={{
-    justifyContent: 'flex-start',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
     paddingLeft: 'min(90px, 5%)',
     flex: '1 1 500px',
-    maxWidth: '100%'
+    maxWidth: '100%',
+    boxSizing: 'border-box'
    }}>
   <a href='https://sistema-agendamento-opal.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src={imgBarbearia} style={{
+  <img src='src/assets/Captura de pantalla 2026-07-13 225505.png' style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -130,7 +132,9 @@ export default function App() {
     display: 'flex',
     justifyContent: 'center',
     fontSize: '24px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: '10px 0 5px 0'
   }}>Site de Barbearia</h4>
   <p style={{
     display: 'flex',
@@ -139,18 +143,21 @@ export default function App() {
     color: '#8B5CF6' ,
     fontWeight: 'bold',
     paddingBottom: '30px',
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: 0
   }}>Sistema de Agendamento com react native e google sheets.</p>
   </div>
   <div  data-aos="fade-up" data-aos-delay="300" style={{
-    justifyContent: 'flex-end',
-    marginLeft: 'auto',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
     paddingRight: 'min(90px, 5%)',
     flex: '1 1 500px',
-    maxWidth: '100%'
+    maxWidth: '100%',
+    boxSizing: 'border-box'
   }}>
   <a href='https://vitrine-virtual-eight.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src={imgRoupas} style={{
+  <img src='src/assets/Captura de pantalla 2026-07-13 225637.png' style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -161,7 +168,9 @@ export default function App() {
    justifyContent: 'center',
    color: 'white',
     fontSize: '24px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: '10px 0 5px 0'
   }}>Catálogo de Roupas</h4>
   <p style={{
     display: 'flex',
@@ -169,7 +178,8 @@ export default function App() {
     fontSize: '18px',
     color: '#8B5CF6' ,
     fontWeight: 'bold',
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: 0
   }}>Vitrine Digital com react e google sheets.</p></div>
 </div>
 
@@ -179,16 +189,21 @@ export default function App() {
   color: 'white',
   fontFamily: 'roboto',
   boxSizing: 'border-box',
-  marginTop: '40px'
+  marginTop: '40px',
+  justifyContent: 'space-between',
+  gap: '20px'
 }}>
 <div  style={{
-    justifyContent: 'flex-start',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
     paddingLeft: 'min(90px, 5%)',
     flex: '1 1 500px',
-    maxWidth: '100%'
+    maxWidth: '100%',
+    boxSizing: 'border-box'
    }}>
   <a data-aos="fade-up" data-aos-delay="100" href='https://lendas-de-palmeira.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src={imgLendas} style={{
+  <img src='src/assets/Captura de pantalla 2026-07-13 233509.png' style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -198,7 +213,9 @@ export default function App() {
     display: 'flex',
     justifyContent: 'center',
     fontSize: '24px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: '10px 0 5px 0'
   }}>Lendas Palmeira</h4>
   <p style={{
     display: 'flex',
@@ -207,19 +224,21 @@ export default function App() {
     color: '#8B5CF6' ,
     fontWeight: 'bold',
     paddingBottom: '30px',
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: 0
   }}>App de Lendas de Palmeira com react native.</p>
   </div>
   <div data-aos="fade-up" data-aos-delay="300" style={{
-    justifyContent: 'flex-end',
-    marginLeft: 'auto',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
     paddingRight: 'min(90px, 5%)',
     flex: '1 1 500px',
-    maxWidth: '100%'
+    maxWidth: '100%',
+    boxSizing: 'border-box'
   }}>
-    <div>
   <a href='https://agrinho-beige-pi.vercel.app/' target='_blank' rel='noopener noreferrer'>
-  <img src={imgAgro} style={{
+  <img src='src/assets/Captura de pantalla 2026-07-13 233556.png' style={{
     width: '100%',
     maxWidth: '500px',
     height: 'auto'
@@ -230,14 +249,19 @@ export default function App() {
    justifyContent: 'center',
    color: 'white',
     fontSize: '24px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: '10px 0 5px 0'
   }}>AgroNext</h4>
   <p style={{
+    display: 'flex',
+    justifyContent: 'center',
     fontSize: '18px',
     color: '#8B5CF6' ,
     fontWeight: 'bold',
-    textAlign: 'center'
-  }}>Site produzido para o agrinho 2026, passou para a segunda fase.</p></div>
+    textAlign: 'center',
+    margin: 0
+  }}>Site produzido para o agrinho 2026, passou para a segunda fase.</p>
   </div>
 </div>
 
