@@ -275,7 +275,7 @@ export default function App() {
   <a href='https://wa.me/5542999936768' target='_blank' rel='noopener noreferrer'>
   <FaWhatsapp  color= 'white' size={40}/>
   </a>
-  <a href='' target='_blank' rel='noopener noreferrer'>
+  <a href='https://www.instagram.com/protz_dev/' target='_blank' rel='noopener noreferrer'>
   <FaInstagram color='white' size={40}/>
   </a>
   <a href='https://github.com/protzx' target='_blank' rel='noopener noreferrer'>
