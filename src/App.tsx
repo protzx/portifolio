@@ -60,7 +60,7 @@ export default function App() {
               color: "#8B5CF6",
               fontSize: "clamp(20px, 4vw, 28px)",
             }} data-aos="fade-up" data-aos-duration="800">
-                Suloções Digitais & Sites para Negócios Locais</h2>
+                Soluções Digitais & Sites para Negócios Locais</h2>
           </div>
         </div>
       </header>
